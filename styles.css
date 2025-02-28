@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Calibri', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: violet;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    color: violet;
+    margin-bottom: 20px;
+}
+
+.post {
+    background-color: white;
+    margin: 20px auto;
+    padding: 15px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post h3 {
+    font-size: 1.8rem;
+    color: violet;
+}
+
+.post p {
+    font-size: 1rem;
+    color: #555;
+}
+
+footer {
+    background-color: violet;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 1rem;
+}
